@@ -15,10 +15,11 @@ public class Human : MonoBehaviour
     {
         myHuman = GameObject.Find("Human");
 
-        
-        
-        
         myFinger = GameObject.Find("Human/Body/Legs/Foot Left/Finger 3");
+
+        myFinger = GameObject.FindGameObjectWithTag("Finger");
+
+
 
     }
 
