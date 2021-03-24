@@ -8,9 +8,16 @@ public class Human : MonoBehaviour
 
     public GameObject myHuman;
     public GameObject myFinger;
+    public static Human Instance;
+    public GameObject Body;
 
-    
-    
+    private void Awake()
+    {
+        Instance = this; 
+    }
+
+
+
     void Start()
     {
         myHuman = GameObject.Find("Human");
@@ -18,6 +25,11 @@ public class Human : MonoBehaviour
         myFinger = GameObject.Find("Human/Body/Legs/Foot Left/Finger 3");
 
         myFinger = GameObject.FindGameObjectWithTag("Finger");
+
+        
+
+
+
 
 
 
