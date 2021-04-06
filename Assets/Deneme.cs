@@ -7,5 +7,6 @@ public class Deneme : MonoBehaviour
     public void MyTestMetod()
     {
         Debug.Log("O gemi bir gün gelecek");
+
     }
 }
